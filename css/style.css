@@ -47,7 +47,7 @@ header {
     padding: 60px;
     justify-content: center;
     align-items: flex-end;
-    background-image:url('/images/images/banner.jpeg');
+    background-image:url('../images/images/banner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -89,12 +89,12 @@ header .banner{
 }
 
 .annon span{
-    font-size: 6rem;
+    font-size: 9rem;
     line-height: 0;
 }
 
 .annon p{
-    font-size: .5rem;
+    font-size: .6rem;
     width: 50%;
 }
 
@@ -109,22 +109,22 @@ header .banner{
 }
 
 .gallery .gallery-img-1 {
-    background-image: url(/images/images/gallery-1.jpeg);
+    background-image: url('../images/images/gallery-1.jpeg');
 }
 .gallery .gallery-img-2{
-background-image: url(/images/images/gallery-2.jpeg);
+background-image: url('../images/images/gallery-2.jpeg');
 }
 .gallery .gallery-img-3{
-    background-image: url(/images/images/gallery-3.jpeg);
+    background-image: url('../images/images/gallery-3.jpeg');
 }
 .gallery .gallery-img-4{
-    background-image: url(/images/images/gallery-4.jpeg);
+    background-image: url('../images/images/gallery-4.jpeg');
 }
 .gallery .gallery-img-5{
-    background-image: url(/images/images/gallery-5.jpeg);
+    background-image: url('../images/images/gallery-5.jpeg');
 }
 .gallery .gallery-img-6{
-    background-image: url(/images/images/gallery-6.jpeg);
+    background-image: url('../images/images/gallery-6.jpeg');
 }
 
 .coming-soon{
@@ -172,14 +172,18 @@ background-image: url(/images/images/gallery-2.jpeg);
 .input-container .form-btn {
     padding: 12px 10px;
     border: unset;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 100%;
+    font-size: small;
 }
 
 .input-container .form-btn{
     background-color: black;
     color: whitesmoke;
-    height: 80%;
+    height: 60%;
+    width: 150px;
+    margin-top: 12px;
+    
 }
 
  .content{
@@ -196,7 +200,7 @@ background-image: url(/images/images/gallery-2.jpeg);
  
 .article-img-container, .article-text-container{
     height: 40rem;
-    display: flex;
+    display: block;
     align-items: center;
 }
 
@@ -215,6 +219,7 @@ background-image: url(/images/images/gallery-2.jpeg);
     flex-shrink: 0;
     flex-basis: 65%;
     padding: 2.3rem;
+    margin-top: 200px;
 }
 
 .article-text-container .article-text{
@@ -224,8 +229,8 @@ background-image: url(/images/images/gallery-2.jpeg);
 }
 
 .aria{
-    font-family: 'Clicker Script', cursive;
-    margin-top: 20px;
+    font-family: Clicker Script;
+    margin-top: 30px;
 }
 
 .slide{
@@ -257,16 +262,16 @@ background-image: url(/images/images/gallery-2.jpeg);
 }
 
 .slide-img-1{
-    background-image: url(/images/images/slide-1.jpg);
+    background-image: url('../images/images/slide-1.jpg');
 }
 .slide-img-2{
-    background-image: url(/images/images/slide-2.jpg);
+    background-image: url('../images/images/slide-2.jpg');
 }
 .slide-img-3{
-    background-image: url(/images/images/slide-3.jpg);
+    background-image: url('../images/images/slide-3.jpg');
 }
 .slide-img-4{
-    background-image: url(/images/images/slide-4.jpg);
+    background-image: url('../images/images/slide-4.jpg');
 }
 .slide-img{
     width: 100%;
@@ -275,6 +280,12 @@ background-image: url(/images/images/gallery-2.jpeg);
 .slide-icon-container{
     margin-top: 2rem;
 }
+
+.arrow{
+    margin-top: 25px;
+    margin-left: 600px;
+}
+
 .product{
     padding: 4.5rem;
 }
@@ -353,7 +364,7 @@ background-image: url(/images/images/gallery-2.jpeg);
 }
 
 .subscribe-img-container{
-    background-image: url(/images/images/subscribe.jpeg);
+    background-image: url('../images/images/subscribe.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -366,6 +377,7 @@ background-image: url(/images/images/gallery-2.jpeg);
     font-style: italic;
     font-family: 'Playfair Disply', serif;
     font-weight: 800;
+    margin-top: 20px;
 }
 
 .subscribe-heading::before{
@@ -393,25 +405,33 @@ background-image: url(/images/images/gallery-2.jpeg);
     border: unset;
     border-radius: 1.3rem;
     text-transform: uppercase;
+    margin-top: 15px;
 }
 
  .input-container button:hover{
     background-color:  rgb(245, 189, 228);
+
 }
 
 .social-icons{
-    margin: 30px 0;
+    margin: 10px  275px 0;
     align-items: center;
 }
-.social-icons .twitter{
+ .social-icons .twitter{
     padding: 0 20px;
+} 
+.subscribe-text{
+    margin: 20px 60px 30px;
+    text-align: center;
+    font-size: 60%; 
+    font-weight: 100; 
+}    
+
+.subscribe-form{
+    margin-left: 80px;
 }
-.subscribe{
-    margin: 0 auto;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}      
+.btn{
+  margin-left: 220px;
+}
 
 
